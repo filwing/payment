@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>start</AssemblyName>
+    <RootNamespace>start</RootNamespace>
+    <Authors>Michał Banaszak</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Test\cash.csproj" />
+  </ItemGroup>
+
+</Project>
